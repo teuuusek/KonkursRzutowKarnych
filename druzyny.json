@@ -1,0 +1,16 @@
+{
+  "druzyny": [
+    {
+      "nazwa": "Barcelona",
+      "zawodnicy": ["Lewandowski", "Pedri", "Gavi", "Raphinha", "Yamal"]
+    },
+    {
+      "nazwa": "Real Madrid",
+      "zawodnicy": ["Mbappe", "Guler", "Valverde", "Vinicius", "Rodrygo"]
+    },
+    {
+      "nazwa": "Manchester City",
+      "zawodnicy": ["Haaland", "Doku", "Foden", "Rodri", "Reijnders"]
+    }
+  ]
+}
