@@ -12,7 +12,7 @@ public class Main {
   public static void main(String[] args) {
     wypiszNaglowek();
     Scanner scanner = new Scanner(System.in);
-    ZapisWynikow zapisWynikow = new ZapisWynikow("wyniki.txt);
+    ZapisWynikow zapisWynikow = new ZapisWynikow("wyniki.txt");
     MenedzerTurnieju menedzer = new MenedzerTurnieju(scanner, zapisWynikow);
     menedzer.rozegrajPojedynczyMecz();
     scanner.close();
