@@ -1,6 +1,6 @@
 package konkursrzutowkarnych;
 
-import java.until.Scanner;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,6 +8,7 @@ public class Main {
     System.out.println("================================");
     System.out.println("     KONKURS RZUTÓW KARNYCH     ");
     System.out.println("================================");
+  }
   public static void main(String[] args) {
     wypiszNaglowek();
     Scanner scanner = new Scanner(System.in);
