@@ -22,7 +22,6 @@ public class RzutyKarne {
         this.scanner = scanner;
         this.zapisWynikow = zapisWynikow;
     }
-\
 
     public void graj() {
 
