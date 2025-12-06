@@ -14,9 +14,9 @@ public class KonfiguracjaJSON {
   }
 
 public List<Druzyna> wczytajDruzyny() {
-  List<Druzyna> druzyny = newArrayList<>();
+  List<Druzyna> druzyny = new ArrayList<>();
 
-  try (BufferedReader reader = new BufferedReader(new FileReader(nazwaPliku)))) {
+  try (BufferedReader reader = new BufferedReader(new FileReader(nazwaPliku))) {
     String linia;
     String aktualnaNazwa = null;
     List<String> aktualniZawodnicy = null;
@@ -24,7 +24,7 @@ public List<Druzyna> wczytajDruzyny() {
   while ((linia = reader.readLine()) != null) {
     linia = linia.trim();
 
-    if (linia.startsWith("\"nazwa"")) {
+    if (linia.contains("\"nazwa\"")) {
       String[] parts = linia.split(":");
       if (parts.length >= 2) {
         String nazwa = parts[1].trim();
@@ -61,7 +61,7 @@ public List<Druzyna> wczytajDruzyny() {
     }
   }
 
-  } catch (IOExpection e) {
+  } catch (IOException e) {
     System.out.println("Błąd podczas wczytywania pliku JSON: " + e.getMessage());
   }
   if (druzyny.isEmpty()) {
