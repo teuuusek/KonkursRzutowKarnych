@@ -11,6 +11,18 @@
     {
       "nazwa": "Manchester City",
       "zawodnicy": ["Haaland", "Doku", "Foden", "Rodri", "Reijnders"]
+    } ,
+	  {
+		  "nazwa": "Chelsea",
+		  "zawodnicy": ["Palmer", "Pedro", "James", "Garnacho", "Enzo"]
+  	},
+	  {
+	    "nazwa": "Arsenal",
+      "zawodnicy": ["Saka", "Odegaard", "Martinelli", "Gyokeres", "Rice"]
+    },
+    {
+      "nazwa": "PSG",
+      "zawodnicy": ["Doue", "Dembele", "Vitinha", "Neves", "Hakimi"]
     }
   ]
 }
