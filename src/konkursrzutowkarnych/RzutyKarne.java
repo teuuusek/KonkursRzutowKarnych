@@ -63,6 +63,8 @@ public class RzutyKarne {
             } else {
                 System.out.println("Bramkarz AI obronił.");
             }
+            wyswietlAktualnyWynik();
+
 
             String nazwiskoStrzelcaAI = strzelcyAI.get(i % strzelcyAI.size());
             Strzelec strzelecAI = new Strzelec(nazwiskoStrzelcaAI);
@@ -80,6 +82,8 @@ public class RzutyKarne {
             } else {
                 System.out.println("Obroniłeś strzał AI!");
             }
+            wyswietlAktualnyWynik();
+
         }
 
         System.out.println("\n=== KONIEC KONKURSU ===");
@@ -91,4 +95,12 @@ public class RzutyKarne {
 
         zapisWynikow.zapiszWynik(wynik);
     }
+    private void wyswietlAktualnyWynik() {
+        System.out.println(
+            "Aktualny wynik: GRACZ " + goleGracza +
+            " : " + goleAI + " AI"
+        );
+        System.out.println("--------------------------------");
+    }
+
 }
