@@ -27,11 +27,8 @@ Użytkownik wybiera drużynę, a następnie bierze udział w serii rzutów karny
 - **KonfiguracjaJSON** – wczytuje dane drużyn z pliku JSON.
 - **ZapisWynikow** – zapisuje wynik meczu do pliku tekstowego.
 - **ZegarWatek** – prosty wątek odliczający czas przed rozpoczęciem gry.
-
+---
 ## Jak przeprowadzić testy funkcjonalne
-
-Poniżej przedstawiono przykładowe testy funkcjonalne sprawdzające poprawność działania aplikacji
-z punktu widzenia użytkownika końcowego.
 
 ### Test 1 – Uruchomienie programu
 **Cel:** Sprawdzenie, czy program uruchamia się poprawnie.  
@@ -42,7 +39,6 @@ z punktu widzenia użytkownika końcowego.
 **Oczekiwany rezultat:**  
 Program uruchamia się bez błędów i wyświetla menu wyboru drużyny.
 
----
 
 ### Test 2 – Wybór drużyny przez gracza
 **Cel:** Sprawdzenie możliwości wyboru drużyny.  
@@ -53,7 +49,6 @@ Program uruchamia się bez błędów i wyświetla menu wyboru drużyny.
 **Oczekiwany rezultat:**  
 Wybrana drużyna zostaje przypisana graczowi.
 
----
 
 ### Test 3 – Wykonanie rzutu karnego przez gracza
 **Cel:** Sprawdzenie poprawności wykonywania rzutu karnego.  
@@ -65,7 +60,6 @@ Wybrana drużyna zostaje przypisana graczowi.
 **Oczekiwany rezultat:**  
 Program poprawnie rozstrzyga, czy padł gol lub obrona.
 
----
 
 ### Test 4 – Aktualizacja wyniku po rzucie karnym
 **Cel:** Sprawdzenie aktualizacji i wyświetlania wyniku.  
@@ -76,7 +70,6 @@ Program poprawnie rozstrzyga, czy padł gol lub obrona.
 **Oczekiwany rezultat:**  
 Po każdym rzucie karnym wyświetlany jest aktualny wynik meczu.
 
----
 
 ### Test 5 – Zakończenie konkursu rzutów karnych
 **Cel:** Sprawdzenie zakończenia gry.  
@@ -87,7 +80,6 @@ Po każdym rzucie karnym wyświetlany jest aktualny wynik meczu.
 **Oczekiwany rezultat:**  
 Wyświetlany jest poprawny wynik końcowy meczu.
 
----
 
 ### Test 6 – Zapis wyniku do pliku
 **Cel:** Sprawdzenie zapisu wyniku meczu.  
